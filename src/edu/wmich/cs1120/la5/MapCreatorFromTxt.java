@@ -1,7 +1,5 @@
 package edu.wmich.cs1120.la5;
 
-import jdk.nashorn.internal.codegen.MapCreator;
-
 import java.io.IOException;
 
 public class MapCreatorFromTxt implements IMapCreator {
@@ -16,4 +14,7 @@ public class MapCreatorFromTxt implements IMapCreator {
 		return null;
 	}
 
+	public void setScanner(TerrainScanner scanner){
+
+	}
 }
