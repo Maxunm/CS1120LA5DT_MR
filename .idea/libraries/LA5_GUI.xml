@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LA5_GUI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LA5_GUI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

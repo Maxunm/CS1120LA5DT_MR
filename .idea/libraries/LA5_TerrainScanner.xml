@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LA5_TerrainScanner">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LA5_TerrainScanner.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
