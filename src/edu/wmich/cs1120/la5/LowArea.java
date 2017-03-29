@@ -5,6 +5,6 @@ package edu.wmich.cs1120.la5;
  * Date: 3/16/2017
  * Reference: ...
  */
-public class LowArea {
+public class LowArea extends Area{
 
 }
