@@ -8,6 +8,6 @@ package edu.wmich.cs1120.la5;
 public class Subtraction implements IOperation{
     // perform the operation accordingly and return the value
     public Integer perform(IExpression left, IExpression right){
-        return null;
+        return left.getValue() - right.getValue();
     }
 }

@@ -10,6 +10,13 @@ public class ExpressionFactory {
     //according to the arguments received
     public static IExpression getExpression(char operator, int val1, int val2) {
         // fill your code here
-        return null;
+        switch (operator){
+            case '-':
+                return new BinaryExpression(new Subtraction(),new Literal(val1),new Literal(val2));
+            case '+':
+                return new BinaryExpression(new Addition(),new Literal(val1),new Literal(val2));
+            default:
+                return null;
+        }
     }
 }

@@ -6,7 +6,16 @@ package edu.wmich.cs1120.la5;
  * Reference: ...
  */
 public class BinaryExpression implements IExpression {
+    private IOperation operation;
+    private IExpression leftVal;
+    private IExpression rightVal;
+
+    public BinaryExpression(IOperation op, IExpression lef, IExpression rig){
+        operation = op;
+        leftVal = lef;
+        rightVal = rig;
+    }
     public Integer getValue(){
-        return null;
+        return operation.perform(leftVal,rightVal);
     }
 }

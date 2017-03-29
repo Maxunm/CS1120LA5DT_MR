@@ -6,7 +6,12 @@ package edu.wmich.cs1120.la5;
  * Reference: ...
  */
 public class Literal implements IExpression {
+    private Integer number;
+
+    public Literal(Integer lit){
+        number = lit;
+    }
     public Integer getValue(){
-        return null;
+        return number;
     }
 }
