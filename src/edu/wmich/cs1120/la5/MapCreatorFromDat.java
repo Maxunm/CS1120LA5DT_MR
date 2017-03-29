@@ -1,8 +1,7 @@
 package edu.wmich.cs1120.la5;
 
-import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Scanner;
 import java.io.RandomAccessFile;
 
 /* Assignment: ...
@@ -19,9 +18,11 @@ public class MapCreatorFromDat implements IMapCreator {
 	private TerrainScanner sc = new TerrainScanner();
 	
     public void scanTerrain(String fileName, int threshold) throws IOException {
-    	
-    	RandomAccessFile(new File(fileName, "r")) datFile= new RandomAccessFile();
-    	
+    	try{
+    	RandomAccessFile datFile = new RandomAccessFile(fileName,"r");
+        }catch(FileNotFoundException e){
+    	    e.printStackTrace();
+        }
     	
     	String line;
 		String[] info;
