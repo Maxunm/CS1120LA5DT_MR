@@ -6,5 +6,8 @@ package edu.wmich.cs1120.la5;
  * Reference: ...
  */
 public class LowArea extends Area{
-
+    @Override
+    public double calcConsumedEnergy(){
+        return this.basicEnergy*2;
+    }
 }
