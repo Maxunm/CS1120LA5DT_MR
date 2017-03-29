@@ -5,8 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class MapCreatorFromTxt implements IMapCreator {
-	Area[][] terrain = new Area[10][10];
-	TerrainScanner mine = new TerrainScanner();
+	private Area[][] terrain = new Area[10][10];
+	private TerrainScanner mine = new TerrainScanner();
 
 	/**
 	 * The meat and potatoes of this class, this method reads the Terrain file, determines if the Area is high or low, and sets the Area 2d array accordingly.
