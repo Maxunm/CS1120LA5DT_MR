@@ -8,17 +8,31 @@ import java.io.IOException;
  * Reference: ...
  */
 public class MapCreatorFromDat implements IMapCreator {
-
+	//three doubles, char, two int
+	//area array 
+	//elevation, energy, radiation
+	private ExpressionFactory exF = new ExpressionFactory();
+	private Area[][] terrain = new Area[10][10];
+	private TerrainScanner sc = new TerrainScanner();
+	
     public void scanTerrain(String fileName, int threshold) throws IOException {
 
+    	//exF.getExpression(operator, val1, val2).getValue();
+    	
+    	
+    	
+    	
+    	
+    	
+    	setScanner(sc);
 
     }
 
     public TerrainScanner getScanner(){
-        return null;
+        return sc;
     }
 
     public void setScanner(TerrainScanner scanner){
-
+    	scanner.setTerrain(terrain);
     }
 }
