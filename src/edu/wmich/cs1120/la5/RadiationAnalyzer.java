@@ -28,6 +28,6 @@ public class RadiationAnalyzer {
     }
     // Return the name of the analyzer
     public String toString(){
-        return "Bull";
+        return "Radiation";
     }
 }
