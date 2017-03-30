@@ -10,6 +10,7 @@ import edu.wmich.cs1120.la3.LowArea;
 
 /* Assignment: ...
  * Author: Merrick Rumel
+ * Author: Daniel Toth
  * Date: 3/16/2017
  * Reference: ...
  */

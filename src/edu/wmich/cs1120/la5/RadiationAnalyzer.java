@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 /* Assignment: ...
  * Author: Merrick Rumel
+ * Author: Daniel Toth
  * Date: 3/16/2017
  * Reference: ...
  */

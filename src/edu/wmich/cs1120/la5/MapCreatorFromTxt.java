@@ -4,6 +4,13 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+/* Assignment: ...
+ * Author: Merrick Rumel
+ * Author: Daniel Toth
+ * Date: 3/16/2017
+ * Reference: ...
+ */
+
 public class MapCreatorFromTxt implements IMapCreator {
 	private Area[][] terrain = new Area[10][10];
 	private TerrainScanner mine = new TerrainScanner();
