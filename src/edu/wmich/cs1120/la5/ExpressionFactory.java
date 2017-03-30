@@ -8,6 +8,13 @@ package edu.wmich.cs1120.la5;
 public class ExpressionFactory {
     // This method will create and return a proper object
     //according to the arguments received
+	/**
+	 * 
+	 * @param operator char value '-' or '+'
+	 * @param val1 first int in operator 
+	 * @param val2 second int in operator
+	 * @return returns addition or subtraction BinaryExpression object, or a null if neither can be done
+	 */
     public static IExpression getExpression(char operator, int val1, int val2) {
         // fill your code here
         switch (operator){
