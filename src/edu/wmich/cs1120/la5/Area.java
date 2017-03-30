@@ -5,6 +5,7 @@ public abstract class Area implements IArea {
 	private double elevation;
 	private double radiation;
 	@Override
+	
 	public double getBasicEnergyCost() {
 		return basicEnergy;
 	}
@@ -14,7 +15,7 @@ public abstract class Area implements IArea {
 		basicEnergy = basicEnergyCost;
 
 	}
-
+	
 	@Override
 	public double getElevation() {
 		return elevation;
