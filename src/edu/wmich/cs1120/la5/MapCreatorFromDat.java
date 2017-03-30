@@ -4,10 +4,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-import edu.wmich.cs1120.la3.Area;
-import edu.wmich.cs1120.la3.HighArea;
-import edu.wmich.cs1120.la3.LowArea;
-
 /* Assignment: ...
  * Author: Merrick Rumel
  * Author: Daniel Toth
@@ -23,9 +19,9 @@ public class MapCreatorFromDat implements IMapCreator {
 	private TerrainScanner sc = new TerrainScanner();
 	
     public void scanTerrain(String fileName, int threshold) throws IOException {
-    	RandomAccessFile datFile;
+    	RandomAccessFile datFile = null;
     	try{
-    	datFile = new RandomAccessFile(fileName,"r");
+    		datFile = new RandomAccessFile(fileName,"r");
         }catch(FileNotFoundException e){
     	    e.printStackTrace();
         }
