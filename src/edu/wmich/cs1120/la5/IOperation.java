@@ -10,9 +10,9 @@ public interface IOperation {
     // perform the operation accordingly and return the value
 	/**
 	 * 
-	 * @param left
-	 * @param right
-	 * @return
+	 * @param left left object
+	 * @param right right object
+	 * @return returns results
 	 */
     Integer perform(IExpression left, IExpression right);
 }

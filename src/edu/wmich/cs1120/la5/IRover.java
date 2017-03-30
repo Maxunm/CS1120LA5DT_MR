@@ -22,18 +22,18 @@ public interface IRover {
     void setPath(ArrayList<IArea> path);
     // Analyze the path according to the type of the analyzer
     /**
-     * 
+     * analyze chosen path
      */
     void analyzePath();
     // Get the result of the analysis according to the type of the analyzer
     /**
      * getter for analysis
-     * @return
+     * @return returns result
      */
     String getAnalysis();
     /**
      * setter or analysis
-     * @param analysis
+     * @param analysis analysis used
      */
     void setAnalysis(String analysis);
     // Return the name of the analyzer

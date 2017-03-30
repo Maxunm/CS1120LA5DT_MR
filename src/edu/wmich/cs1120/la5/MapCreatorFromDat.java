@@ -18,6 +18,10 @@ public class MapCreatorFromDat implements IMapCreator {
 	private Area[][] terrain = new Area[10][10];
 	private TerrainScanner sc = new TerrainScanner();
 	
+	/**
+	 * @param fileName file to be read
+	 * @param threshold number for threshold of rover
+	 */
     public void scanTerrain(String fileName, int threshold) throws IOException {
     	RandomAccessFile datFile = null;
     	try{
@@ -78,11 +82,17 @@ public class MapCreatorFromDat implements IMapCreator {
     	setScanner(sc);
 
     }
-
+    /**
+     * getter for sc
+     * @return returns sc
+     */
     public TerrainScanner getScanner(){
         return sc;
     }
-
+/**
+ * setter for sc
+ * @param scanner Terrainscanner used
+ */
     public void setScanner(TerrainScanner scanner){
     	scanner.setTerrain(terrain);
     }

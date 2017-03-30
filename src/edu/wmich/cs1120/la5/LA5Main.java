@@ -4,6 +4,7 @@ import edu.wmich.cs1120.la5.gui.MainWindow;
 
 /* Assignment: ...
  * Author: Merrick Rumel
+ * Author: Daniel Toth
  * Date: 3/15/2017
  * Reference: ...
  */

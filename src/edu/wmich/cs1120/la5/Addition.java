@@ -10,6 +10,7 @@ public class Addition implements IOperation{
     // perform the operation accordingly and return the value
 	/**
 	 * adds two values together to get the sum
+	 * @return returns value
 	 */
     public Integer perform(IExpression left, IExpression right){
         return left.getValue() + right.getValue();
