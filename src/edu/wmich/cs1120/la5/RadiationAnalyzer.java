@@ -8,6 +8,8 @@ import java.util.ArrayList;
  * Reference: ...
  */
 public class RadiationAnalyzer {
+    ArrayList<IArea> path;
+    IMapCreator myMap;
     public ArrayList<IArea> getPath(){
         return null;
     }
